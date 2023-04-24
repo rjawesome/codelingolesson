@@ -12,7 +12,7 @@ ArrayList<Integer> list = new ArrayList<Integer>();
 ```
 
 
-# Useful Arraylist Methods
+## Useful Arraylist Methods
 The following are commonly used methods for ArrayList:
 
 ```
@@ -23,6 +23,40 @@ arrayList.remove(index);
 arrayList.get(index);
 ```
 
+
+## Iterating through an Arraylist
+```
+// Using an enhanced for loop
+ArrayList<Integer> list = new ArrayList<Integer>();
+list.add(1);
+list.add(2);
+list.add(3);
+list.add(4);
+list.add(5);
+for (Integer element: list) {
+    System.out.println(element);
+}
+```
+```
+1
+2
+3
+4
+5
+```
+```
+// Using a for loop
+for (int i = 0; i < list.size(); i++) {
+    System.out.println(list.get(i));
+}
+```
+```
+1
+2
+3
+4
+5
+```
 
 ## Arraylist Hacks:
 Choose one of these options to do. Doing another option will be extra credit

@@ -70,16 +70,28 @@ Watch the call stack to understand which nested call you are currently in.
 
 
 ## Recursion Hack:
-Fix this code (don't run until you fix):
+Save this code from infinite recursion. The code should print something like this:
 
 ```
-public void drawLine(int n)
-{
- for (int i = 1; i <= n; i++) {
-      System.out.print("*");
-      System.out.println();
-      drawLine(n - 1);
- }
+**********
+*********
+********
+*******
+******
+*****
+****
+***
+**
+*
+```
+
+```
+public void drawLine(int n) {
+     for (int i = 1; i <= n; i++) {
+          System.out.print("*");
+     }
+     System.out.println();
+     drawLine(n - 1);
 }
 drawLine(10);
 ```
