@@ -59,7 +59,7 @@ for (int i = 0; i < list.size(); i++) {
 ```
 
 ## Arraylist Hacks:
-Choose one of these options to do. Doing another option will be extra credit
+Choose two of these options to do.
 - Test if two arraylists contain the same elements in reverse order
 - Overwrite all the elements in an arraylist with the alphabet
 - Remove every other element from an arraylist
