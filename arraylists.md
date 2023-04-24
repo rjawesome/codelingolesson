@@ -1,4 +1,4 @@
-# ArrayLists
+# ArrayList
 
 
 ## What are ArrayLists?
