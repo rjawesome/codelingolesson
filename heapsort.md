@@ -1,7 +1,9 @@
 # Heap Sort
 
+
 ## What is Heap Sort?
 Heap Sprt is a comparison-based sorting technique based on Binary Heap data structure. It is similar to the selection sort where we first find the minimum element and place the minimum element at the beginning. Repeat the same process for the remaining elements. This algorithm uses the function heapSort() to construct the max heap initially for use. Once done, every root element is extracted and sent to the end of the array. The root is again extracted and sent to the end of the array, repeating again. The sort also uses the function heapify() to determine the maximum from the element being examined as the root and its two children. If the maximum is among the children of the root, the root and its child are swapped. When the maximum element in the array is found the function stops.
+
 
 Example of heap sort implementation from GeekforGeeks:
 
@@ -84,6 +86,7 @@ HeapSort.main(null);
 Sorted array is
 5 6 7 11 12 13 
 ```
+
 
 ## Heap Sort Hack: 
 Write a heap sort program that sorts an ArrayList<Country> in decreasing order so that the largest country is at the beginning of the array (Create your own Country class with size). Use a Comparator.

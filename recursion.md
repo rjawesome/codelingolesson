@@ -1,5 +1,6 @@
 # Recursion
 
+
 ## What is Recursion?
 The term recursion refers to the fact that the same computation recurs, or occurs repeatedly, as the problem is solved.
 
@@ -40,6 +41,7 @@ recursionex(10);
 stop
 ```
 
+
 ## What do I need to watch out for?
 In infinite recursions, after a number of calls, all memory available for purpose is exhausted. Your computer shuts down and returns a “stack overflow”. 
 
@@ -60,10 +62,12 @@ public void infiniteex(int n) {
 // infiniteex(10);
 ```
 
+
 ## Tracing through Recursive Methods
 When you set a breakpoint in a recursive method, that project line is encountered in any call to the recursive method.
 
 Watch the call stack to understand which nested call you are currently in.
+
 
 ## Recursion Hack:
 Fix this code (don't run until you fix):
