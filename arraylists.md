@@ -24,7 +24,7 @@ arrayList.get(index);
 ```
 
 
-## Iterating through an Arraylist
+## Traversing through an Arraylist
 ```
 // Using an enhanced for loop
 ArrayList<Integer> list = new ArrayList<Integer>();
